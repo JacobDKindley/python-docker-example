@@ -1,6 +1,6 @@
 import unittest
 
-from pyapp import hello_world
+from encryptApp import hello_world
 
 
 def test_hello_world():
@@ -12,3 +12,4 @@ class TestHello(unittest.TestCase):
     
     def test_hello_world(self):
         assert self.hello_world() == 'hello world!'
+
